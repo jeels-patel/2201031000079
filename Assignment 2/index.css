@@ -1,0 +1,136 @@
+.parent-frame-icon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.balas-trek-logos-transparent {
+  height: 143px;
+  width: 270px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.sub-frame {
+  width: 249px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0;
+  box-sizing: border-box;
+}
+.adventure,
+.experience {
+  position: relative;
+  z-index: 1;
+}
+.fifth-level-text {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.with-us {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  z-index: 1;
+}
+.fourth-level-frame {
+  width: 237px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.third-level-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangle-shape {
+  height: 31px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-black);
+  z-index: 1;
+}
+.explore {
+  height: 56px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  z-index: 2;
+  margin-left: -84px;
+}
+.explore-button-frame {
+  width: 106px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+}
+.second-level-frame {
+  width: 335px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: 16px 0;
+}
+.with-us-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.experience-text {
+  flex: 1;
+  flex-direction: column;
+}
+.content-frame,
+.experience-text,
+.main-page {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.content-frame {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-sm);
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.main-page {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 73px var(--padding-6xs) 425px 0;
+  box-sizing: border-box;
+  gap: 94px 0;
+}

@@ -1,0 +1,333 @@
+.balas-trek-logos-transparent6 {
+  height: 49px;
+  width: 191px;
+  position: relative;
+  object-fit: cover;
+}
+.back5,
+.rectangle-b {
+  position: relative;
+  cursor: pointer;
+}
+.rectangle-b {
+  height: 30px;
+  flex: 1;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-darkorange);
+}
+.back5 {
+  z-index: 1;
+  margin-left: -80px;
+}
+.frame-a {
+  width: 106px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xl) 0 0;
+  box-sizing: border-box;
+}
+.balas-trek-logos-transparent-parent1 {
+  width: 426px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.kedarnath-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xl) 0 0;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.kedarnath-1-icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.kedarnath-chopta-,
+.tungnath {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.walking-towards-gods {
+  position: relative;
+}
+.difficulty-frame1,
+.walking-towards-text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.difficulty-frame1 {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-11xs);
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray);
+}
+.walking-towards-text {
+  flex-direction: column;
+  padding: 0 0 var(--padding-base);
+}
+.duration-5-icon {
+  height: 65.9px;
+  width: 57px;
+  position: relative;
+  object-fit: cover;
+}
+.duration5 {
+  margin-bottom: -1px;
+  position: relative;
+}
+.duration-label {
+  height: 23px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.days-81 {
+  position: relative;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-200);
+  z-index: 1;
+}
+.contact-info1 {
+  flex-direction: column;
+}
+.contact-info1,
+.cost-frame,
+.duration-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cost-frame {
+  flex-direction: column;
+  padding: var(--padding-6xs) 0 0;
+}
+.duration-frame {
+  flex-direction: row;
+  gap: 0 10px;
+}
+.age-group-7 {
+  height: 56.2px;
+  width: 57px;
+  object-fit: cover;
+}
+.age-group-7,
+.age-group5,
+.years5 {
+  position: relative;
+}
+.years5 {
+  font-size: var(--font-size-base);
+  color: var(--color-gray-200);
+  z-index: 1;
+}
+.age-group-difficulty-group,
+.duration-frame1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.age-group-difficulty-group {
+  flex-direction: row;
+  gap: 0 10px;
+}
+.difficulty-5-icon {
+  height: 56.2px;
+  width: 57px;
+  position: relative;
+  object-fit: cover;
+}
+.difficulty5 {
+  position: relative;
+}
+.east-to-moderate2 {
+  position: relative;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-200);
+  z-index: 1;
+}
+.age-group-difficulty-group1,
+.difficulty-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.age-group-difficulty-group1 {
+  flex-direction: row;
+  gap: 0 10px;
+}
+.max-altitude-6 {
+  height: 66.5px;
+  width: 57px;
+  object-fit: cover;
+}
+.ft5,
+.max-altitude-6,
+.max-altitude5 {
+  position: relative;
+}
+.ft5 {
+  font-size: var(--font-size-base);
+  color: var(--color-gray-200);
+  z-index: 1;
+}
+.max-altitude-unit {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.contact-label,
+.from-price-label1,
+.max-altitude-unit {
+  display: flex;
+  justify-content: flex-start;
+}
+.contact-label {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-8xs);
+}
+.from-price-label1 {
+  flex-direction: row;
+  align-items: center;
+  gap: 0 10px;
+}
+.frame-f {
+  flex-direction: column;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.frame-f,
+.kedarnath-chopta-label,
+.treklogostransparent-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.kedarnath-chopta-label {
+  flex: 1;
+  flex-direction: column;
+}
+.treklogostransparent-frame {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-base) var(--padding-5xs);
+}
+.price-label-child {
+  height: 46px;
+  width: 320px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  display: none;
+}
+.from-rs-11200 {
+  position: relative;
+  white-space: pre-wrap;
+  z-index: 1;
+}
+.price-label {
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gainsboro);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-xl) var(--padding-4xs)
+    var(--padding-sm);
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+}
+.rectangle-info {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-darkorange);
+  cursor: pointer;
+}
+.contact-for-book5 {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 1;
+  margin-left: -219px;
+}
+.from-label,
+.rectangle-contact1 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.from-label {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--padding-2xl) 0 0;
+  background-color: transparent;
+  align-self: stretch;
+  width: 247px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rectangle-contact1 {
+  height: 57px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-23xl) 0 79px;
+}
+.frame-c,
+.frame-d,
+.kedarnath {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-d {
+  flex: 1;
+  flex-direction: column;
+  gap: 37px 0;
+}
+.frame-c,
+.kedarnath {
+  box-sizing: border-box;
+}
+.frame-c {
+  width: 410px;
+  flex-direction: row;
+  padding: 0 var(--padding-2xl);
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-chocolate);
+  font-family: var(--font-inter);
+}
+.kedarnath {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-12xl) 0 var(--padding-9xl);
+  gap: 9px 0;
+}

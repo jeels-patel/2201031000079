@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="main-page">
+      <img
+        class="parent-frame-icon"
+        alt=""
+        src="./public/parent-frame@2x.png"
+      />
+
+      <div class="sub-frame">
+        <img
+          class="balas-trek-logos-transparent"
+          alt=""
+          src="./public/balas-treklogos-transparent-1@2x.png"
+        />
+      </div>
+      <section class="content-frame">
+        <div class="experience-text">
+          <div class="experience">Experience</div>
+          <div class="with-us-frame">
+            <div class="second-level-frame">
+              <div class="third-level-frame">
+                <div class="fourth-level-frame">
+                  <div class="fifth-level-text">
+                    <div class="adventure">Adventure</div>
+                  </div>
+                  <div class="with-us">with us</div>
+                </div>
+              </div>
+              <div class="explore-button-frame">
+                <div class="rectangle-shape"></div>
+                <div class="explore" id="exploreText">Explore</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var exploreText = document.getElementById("exploreText");
+      if (exploreText) {
+        exploreText.addEventListener("click", function (e) {
+          window.location.href = "./events.html";
+        });
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,328 @@
+.balas-trek-logos-transparent7 {
+  height: 149px;
+  width: 270px;
+  position: relative;
+  object-fit: cover;
+}
+.background-text {
+  height: 30px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-black);
+  cursor: pointer;
+}
+.back6 {
+  position: relative;
+  z-index: 1;
+  margin-left: -76px;
+}
+.facebook-social-media {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xl) 0 0;
+}
+.contact-info-frame1 {
+  width: 106px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 29px 0 0;
+  box-sizing: border-box;
+}
+.balas-trek-logos-transparent-parent2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 46px;
+  max-width: 105%;
+  flex-shrink: 0;
+}
+.contact-frame2 {
+  width: 420px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.balas-trek-is {
+  position: relative;
+}
+.text-info-frame-b {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xl);
+}
+.being-run-by {
+  align-self: stretch;
+  padding-right: var(--padding-mini);
+}
+.being-run-by,
+.reformation-and-building {
+  position: relative;
+}
+.moral-values-and {
+  width: 255px;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+}
+.f-b-i-g-y-t-w-p-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.fb-1-icon,
+.ig-1-icon,
+.wp-1-1,
+.yt-1-1 {
+  height: 70px;
+  width: 73.1px;
+  position: relative;
+  border-radius: var(--br-81xl);
+  object-fit: cover;
+  min-height: 70px;
+}
+.ig-1-icon,
+.wp-1-1,
+.yt-1-1 {
+  width: 70px;
+}
+.contact-section-frame,
+.social-media-frames,
+.social-reformation-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.contact-section-frame {
+  justify-content: center;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: 0 17px;
+}
+.social-media-frames,
+.social-reformation-frame {
+  justify-content: flex-start;
+  padding: 0 var(--padding-smi);
+}
+.social-reformation-frame {
+  width: 383px;
+  flex-direction: column;
+  padding: 0 0 var(--padding-7xs);
+  gap: 29px 0;
+}
+.contact {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.ahmedabad-head,
+.contact {
+  position: relative;
+}
+.ahmedabad-gujarat,
+.opp-wonder-point,
+.university-road {
+  margin: 0;
+}
+.university-road-container {
+  position: relative;
+}
+.head-office-label,
+.location-text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.location-text {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-4xs);
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-100);
+}
+.head-office-label {
+  flex-direction: column;
+  gap: 11px 0;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+}
+.office-timing-frame,
+.x-logo-transparent-use-rectang {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.x-logo-transparent-use-rectang {
+  flex-direction: column;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: 6px 0;
+}
+.office-timing-frame {
+  align-self: stretch;
+  flex-direction: row;
+  font-size: 32px;
+  color: var(--color-chocolate);
+}
+.office-timing {
+  position: relative;
+}
+.contact-info2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs);
+  color: var(--color-gray-100);
+}
+.x-logos-transparent-use-1-icon {
+  height: 36px;
+  width: 37px;
+  position: relative;
+  object-fit: cover;
+}
+.div {
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+}
+.x-logos-transparent-use-1-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.x-logos-transparent-use-2-icon {
+  height: 36px;
+  width: 37px;
+  position: relative;
+  object-fit: cover;
+}
+.div1 {
+  position: relative;
+  white-space: nowrap;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-11xs);
+}
+.privacy-policy-terms-link,
+.x-logos-transparent-use-2-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 4px;
+}
+.privacy-policy-terms-link {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-2xs) 0;
+  gap: 13px 0;
+}
+.contact-line-icon {
+  height: 2.1px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: contain;
+}
+.logo-rectangle {
+  width: 369px;
+  height: 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mini);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.balas-trek,
+.terms-and-conditions {
+  margin: 0;
+}
+.balas-trek-container {
+  position: relative;
+}
+.line-separator,
+.n-g-o-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 11px 0;
+  max-width: 100%;
+}
+.n-g-o-frame {
+  flex: 1;
+  align-items: flex-end;
+  gap: 39px 0;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.contact-page,
+.secondary-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.secondary-frame {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-mini) 0 var(--padding-4xl);
+  max-width: 100%;
+}
+.contact-page {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: #484848;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 75px 0 22px;
+  gap: 17px 0;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .balas-trek-logos-transparent7 {
+    flex: 1;
+  }
+  .balas-trek-logos-transparent-parent2,
+  .contact-section-frame {
+    flex-wrap: wrap;
+  }
+  .n-g-o-frame {
+    gap: 39px 0;
+  }
+}

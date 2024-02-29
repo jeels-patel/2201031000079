@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./kasol.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="kasol">
+      <section class="frame-root">
+        <div class="frame-parent">
+          <header class="balas-trek-logos-transparent-parent">
+            <img
+              class="balas-trek-logos-transparent1"
+              loading="lazy"
+              alt=""
+              src="./public/balas-treklogos-transparent-3@2x.png"
+            />
+
+            <div class="back-text-parent">
+              <div class="back-text" id="backText"></div>
+              <div class="back" id="backText">Back</div>
+            </div>
+          </header>
+          <div class="kasol-sar-pass">
+            <img
+              class="kasol-sar-pass-1"
+              loading="lazy"
+              alt=""
+              src="./public/kasol-sar-pass-1@2x.png"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="kasol-inner">
+        <div class="frame-group">
+          <div class="frame-container">
+            <div class="frame-wrapper">
+              <div class="frame-div">
+                <div class="kasol-sar-pass-trek-parent">
+                  <h2 class="kasol-sar-pass1">Kasol Sar Pass Trek</h2>
+                  <div class="experience-the-most">
+                    Experience the most glamours trek of
+                  </div>
+                </div>
+                <div class="himalayas">Himalayas!</div>
+              </div>
+            </div>
+            <div class="frame-parent1">
+              <div class="duration-1-parent">
+                <img
+                  class="duration-1-icon"
+                  loading="lazy"
+                  alt=""
+                  src="./public/duration-1@2x.png"
+                />
+
+                <div class="frame-age-group">
+                  <div class="age-group-label">
+                    <div class="duration">Duration</div>
+                    <div class="days-5">6 days / 5 nights</div>
+                  </div>
+                </div>
+              </div>
+              <div class="frame-difficulty">
+                <div class="difficulty-box">
+                  <img
+                    class="age-group-1"
+                    loading="lazy"
+                    alt=""
+                    src="./public/age-group-1@2x.png"
+                  />
+
+                  <div class="age-group-parent">
+                    <div class="age-group">Age Group</div>
+                    <div class="years">15 - 35 years</div>
+                  </div>
+                </div>
+              </div>
+              <div class="frame-wrapper1">
+                <div class="difficulty-1-parent">
+                  <img
+                    class="difficulty-1-icon"
+                    loading="lazy"
+                    alt=""
+                    src="./public/difficulty-1@2x.png"
+                  />
+
+                  <div class="difficulty-parent">
+                    <div class="difficulty">Difficulty</div>
+                    <div class="easy-to-moderate">Easy to Moderate</div>
+                  </div>
+                </div>
+              </div>
+              <div class="max-altitude-label">
+                <img
+                  class="max-altitude-1"
+                  loading="lazy"
+                  alt=""
+                  src="./public/max-altitude-1@2x.png"
+                />
+
+                <div class="text-max-altitudeft">
+                  <div class="max-altitude">Max Altitude</div>
+                  <div class="ft">13,850 ft</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="from-budget-input">
+            <div class="contact-box">
+              <div class="contact-box-child"></div>
+              <div class="from-rs-7500">From Rs. 7,500 / Person</div>
+            </div>
+          </div>
+          <div class="kasol-sar-pass-label-wrapper">
+            <button class="kasol-sar-pass-label">
+              <div class="contact-info-box" id="contactInfoBox"></div>
+              <div class="contact-for-book">Contact For Book</div>
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var backText = document.getElementById("backText");
+      if (backText) {
+        backText.addEventListener("click", function (e) {
+          window.location.href = "./events.html";
+        });
+      }
+      
+      var contactInfoBox = document.getElementById("contactInfoBox");
+      if (contactInfoBox) {
+        contactInfoBox.addEventListener("click", function (e) {
+          window.location.href = "./contact-page.html";
+        });
+      }
+      </script>
+  </body>
+</html>

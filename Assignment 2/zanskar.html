@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./zanskar.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="zanskar">
+      <header class="frame-background">
+        <div class="main-frame-ladakh">
+          <img
+            class="balas-trek-logos-transparent3"
+            loading="lazy"
+            alt=""
+            src="./public/balas-treklogos-transparent-3@2x.png"
+          />
+
+          <div class="rectangle-experience-text-parent">
+            <div
+              class="rectangle-experience-text"
+              id="rectangleExperienceText"
+            ></div>
+            <div class="back2" id="backText">Back</div>
+          </div>
+        </div>
+      </header>
+      <section class="secondary-zanskar-rectangle">
+        <img
+          class="zanskar-1-icon"
+          loading="lazy"
+          alt=""
+          src="./public/zanskar-1@2x.png"
+        />
+      </section>
+      <section class="container-frame-experience-wrapper">
+        <div class="container-frame-experience">
+          <div class="frame-experience-title">
+            <div class="text-untouched-beautyof-ladakh">
+              <h2 class="the-zanskar-jaunt">The Zanskar Jaunt</h2>
+              <div class="experience-the-untouched">
+                Experience the untouched Beauty of
+              </div>
+              <div class="ladakh">Ladakh!</div>
+            </div>
+          </div>
+          <div class="container-duration">
+            <div class="frame-age-group1">
+              <div class="rectangle-difficulty">
+                <img
+                  class="duration-3-icon"
+                  loading="lazy"
+                  alt=""
+                  src="./public/duration-3@2x.png"
+                />
+
+                <div class="text-altitude-unit">
+                  <div class="input-person-budget">
+                    <div class="duration2">Duration</div>
+                    <div class="days-9">10 days / 9 nights</div>
+                  </div>
+                </div>
+              </div>
+              <div class="age-group-selector">
+                <img
+                  class="age-group-4"
+                  loading="lazy"
+                  alt=""
+                  src="./public/age-group-4@2x.png"
+                />
+
+                <div class="max-altitude-box">
+                  <div class="age-group2">Age Group</div>
+                  <div class="years2">12 - 35 years</div>
+                </div>
+              </div>
+              <div class="frame-container1">
+                <div class="difficulty-2-parent">
+                  <img
+                    class="difficulty-2-icon"
+                    loading="lazy"
+                    alt=""
+                    src="./public/difficulty-2@2x.png"
+                  />
+
+                  <div class="easy-tag-wrapper">
+                    <div class="easy-tag">
+                      <div class="difficulty2">Difficulty</div>
+                      <div class="easy">Easy</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="person-cost">
+                  <img
+                    class="max-altitude-3"
+                    loading="lazy"
+                    alt=""
+                    src="./public/max-altitude-3@2x.png"
+                  />
+
+                  <div class="frame-child1">
+                    <div class="max-altitude-label1">
+                      <div class="max-altitude2">Max Altitude</div>
+                      <div class="ft2">16,580 ft</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="final-frame">
+            <div class="final-frame-child"></div>
+            <div class="from-rs-13500">From Rs. 13,500 / Person</div>
+          </div>
+        </div>
+      </section>
+      <div class="contact-info-frame">
+        <button class="booking-button">
+          <div class="primary" id="primary"></div>
+          <div class="contact-for-book2">Contact For Book</div>
+        </button>
+      </div>
+    </div>
+
+    <script>
+      var rectangleExperienceText = document.getElementById(
+        "rectangleExperienceText"
+      );
+      if (rectangleExperienceText) {
+        rectangleExperienceText.addEventListener("click", function (e) {
+          window.location.href = "./events.html";
+        });
+      }
+      
+      var backText = document.getElementById("backText");
+      if (backText) {
+        backText.addEventListener("click", function (e) {
+          window.location.href = "./events.html";
+        });
+      }
+      
+      var primary = document.getElementById("primary");
+      if (primary) {
+        primary.addEventListener("click", function (e) {
+          window.location.href = "./contact-page.html";
+        });
+      }
+      </script>
+  </body>
+</html>

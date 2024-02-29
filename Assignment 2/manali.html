@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./manali.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="manali">
+      <h2 class="manali-trekking-camp">Manali Trekking camp</h2>
+      <section class="inner-frame-wrapper">
+        <div class="inner-frame">
+          <header class="manali-text">
+            <img
+              class="balas-trek-logos-transparent2"
+              loading="lazy"
+              alt=""
+              src="./public/balas-treklogos-transparent-3@2x.png"
+            />
+
+            <div class="rectangle-parent">
+              <div class="frame-child" id="rectangle"></div>
+              <div class="back1" id="backText">Back</div>
+            </div>
+          </header>
+          <div class="manali-rectangle">
+            <img
+              class="manali-1-icon"
+              loading="lazy"
+              alt=""
+              src="./public/manali-1@2x.png"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="manali-inner">
+        <div class="bhrigu-lake-text-parent">
+          <div class="bhrigu-lake-text">
+            <div class="bhrigu-lake-trek">Bhrigu lake Trek</div>
+          </div>
+          <div class="age-group-text-parent">
+            <div class="age-group-text">
+              <div class="max-altitude-text">
+                <div class="difficulty-text">
+                  <img
+                    class="duration-2-icon"
+                    loading="lazy"
+                    alt=""
+                    src="./public/duration-2@2x.png"
+                  />
+
+                  <div class="age-group-max-altitude-frame">
+                    <div class="duration-box">
+                      <div class="duration1">Duration</div>
+                      <div class="days-8">9 days / 8 nights</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="price-box">
+                  <img
+                    class="age-group-3"
+                    loading="lazy"
+                    alt=""
+                    src="./public/age-group-3@2x.png"
+                  />
+
+                  <div class="age-group-label1">
+                    <div class="age-group1">Age Group</div>
+                    <div class="years1">12 - 35 years</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="age-group-rectangle">
+              <div class="age-group-and-max-altitude">
+                <img
+                  class="age-group-2"
+                  alt=""
+                  src="./public/age-group-2@2x.png"
+                />
+
+                <img
+                  class="max-altitude-2"
+                  loading="lazy"
+                  alt=""
+                  src="./public/max-altitude-2@2x.png"
+                />
+              </div>
+              <div class="easy-to-moderate-label">
+                <div class="max-altitude-text1">
+                  <div class="difficulty1">Difficulty</div>
+                  <div class="easy-to-moderate1">Easy to Moderate</div>
+                </div>
+                <div class="max-altitude-parent">
+                  <div class="max-altitude1">Max Altitude</div>
+                  <div class="ft1">14,100 ft</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="from-price-label">
+            <div class="contact-info-rectangle">
+              <div class="contact-info-rectangle-child"></div>
+              <div class="from-rs-9500">From Rs. 9,500 / Person</div>
+            </div>
+          </div>
+          <div class="contact-frame">
+            <button class="rectangle-frame">
+              <div class="text-frame" id="textFrame"></div>
+              <div class="contact-for-book1">Contact For Book</div>
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./events.html";
+        });
+      }
+      
+      var backText = document.getElementById("backText");
+      if (backText) {
+        backText.addEventListener("click", function (e) {
+          window.location.href = "./events.html";
+        });
+      }
+      
+      var textFrame = document.getElementById("textFrame");
+      if (textFrame) {
+        textFrame.addEventListener("click", function (e) {
+          window.location.href = "./contact-page.html";
+        });
+      }
+      </script>
+  </body>
+</html>

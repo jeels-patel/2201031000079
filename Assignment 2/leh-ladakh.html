@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./leh-ladakh.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="leh-ladakh">
+      <header class="leh-frame">
+        <div class="balas-trek-logos-transparent-group">
+          <img
+            class="balas-trek-logos-transparent4"
+            loading="lazy"
+            alt=""
+            src="./public/balas-treklogos-transparent-3@2x.png"
+          />
+
+          <div class="back-text-group">
+            <div class="back-text1" id="backText"></div>
+            <div class="back3" id="backText">Back</div>
+          </div>
+        </div>
+      </header>
+      <section class="leh-label">
+        <img
+          class="leh-1-icon"
+          loading="lazy"
+          alt=""
+          src="./public/leh-1@2x.png"
+        />
+
+        <h2 class="the-leh-ladakh">The Leh Ladakh Road</h2>
+      </section>
+      <section class="trip-text">
+        <div class="age-group-frame">
+          <div class="trip-wrapper">
+            <h2 class="trip">Trip</h2>
+          </div>
+          <div class="duration-rectangle">
+            <div class="a-journey-towards">
+              A Journey Towards Heaven & back!
+            </div>
+          </div>
+          <div class="days-nights-text">
+            <div class="age-group-text1">
+              <img
+                class="duration-4-icon"
+                loading="lazy"
+                alt=""
+                src="./public/duration-3@2x.png"
+              />
+
+              <div class="max-altitude-rectangle">
+                <div class="duration3">Duration</div>
+                <div class="days-14">15 days / 14 nights</div>
+              </div>
+            </div>
+          </div>
+          <div class="age-group-box">
+            <div class="easy-to-moderate-difficulty-bo">
+              <img
+                class="age-group-5"
+                alt=""
+                src="./public/age-group-4@2x.png"
+              />
+
+              <div class="cost-input">
+                <div class="age-group3">Age Group</div>
+                <div class="years3">15 - 35 years</div>
+              </div>
+            </div>
+          </div>
+          <div class="road-text">
+            <div class="difficulty-3-parent">
+              <img
+                class="difficulty-3-icon"
+                loading="lazy"
+                alt=""
+                src="./public/difficulty-2@2x.png"
+              />
+
+              <div class="difficulty-text-wrapper">
+                <div class="difficulty-text1">
+                  <div class="difficulty3">Difficulty</div>
+                  <div class="east-to-moderate">East to Moderate</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="person-cost-input">
+            <div class="max-altitude-4-parent">
+              <img
+                class="max-altitude-4"
+                loading="lazy"
+                alt=""
+                src="./public/max-altitude-3@2x.png"
+              />
+
+              <div class="max-altitude-label2">
+                <div class="max-altitude-group">
+                  <div class="max-altitude3">Max Altitude</div>
+                  <div class="ft3">17,582 ft</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="price-range">
+            <div class="rectangle-group">
+              <div class="frame-item"></div>
+              <div class="from-rs-26000">From Rs. 26,000 / Person</div>
+            </div>
+          </div>
+          <div class="contact-rectangle">
+            <button class="contact-text">
+              <div class="booking-rectangle" id="bookingRectangle"></div>
+              <div class="contact-for-book3">Contact For Book</div>
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var backText = document.getElementById("backText");
+      if (backText) {
+        backText.addEventListener("click", function (e) {
+          window.location.href = "./events.html";
+        });
+      }
+      
+      var bookingRectangle = document.getElementById("bookingRectangle");
+      if (bookingRectangle) {
+        bookingRectangle.addEventListener("click", function (e) {
+          window.location.href = "./contact-page.html";
+        });
+      }
+      </script>
+  </body>
+</html>
